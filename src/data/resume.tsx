@@ -64,6 +64,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: House, label: "Home" },
+    { href: "/blog", icon: Library, label: "Blog" },
   ],
   contact: {
     email: "thomastsangou@gmail.com",
