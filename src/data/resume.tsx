@@ -21,7 +21,7 @@ export const DATA = {
     "Building Scalable Data Pipelines and Production-Ready AI Systems.",
   summary:
     "I am a CS graduate specializing in the infrastructure and automation required to bring data and ML models to production. My expertise spans Linux system administration, Docker orchestration, and robust Python ETL/ELT. I thrive at the intersection of infrastructure, data, and machine learning, ensuring reliable, high-performance systems.",
-  avatarUrl: "",
+  avatarUrl: "/worked.png",
   ogImage: "/og_image.png",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
