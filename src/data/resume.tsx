@@ -21,7 +21,7 @@ export const DATA = {
     "Building Scalable Data Pipelines and Production-Ready AI Systems.",
   summary:
     "I am a CS graduate specializing in the infrastructure and automation required to bring data and ML models to production. My expertise spans Linux system administration, Docker orchestration, and robust Python ETL/ELT. I thrive at the intersection of infrastructure, data, and machine learning, ensuring reliable, high-performance systems.",
-  avatarUrl: "/picofme.png",
+  avatarUrl: "",
   ogImage: "/og_image.png",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
@@ -98,6 +98,42 @@ export const DATA = {
 
   work: [
     {
+      company: "Work Ed",
+      href: "https://worked.com/",
+      badges: ["Education", "AI"],
+      location: "New York, NY",
+      title: "AI Instructor & Program Lead",
+      logoUrl: "https://www.google.com/s2/favicons?domain=worked.com&sz=128",
+      start: "Jan 2024",
+      end: "Present",
+      description:
+        "Developing and delivering lessons on AI concepts and chatbot development to over 100 students. Guided students through practical prompt engineering and training their own classification models.",
+    },
+    {
+      company: "Morrison Mentors",
+      href: "https://www.mmentors.org/",
+      badges: ["Education", "STEAM"],
+      location: "New York, NY",
+      title: "Lead Instructor",
+      logoUrl: "https://www.google.com/s2/favicons?domain=mmentors.org&sz=128",
+      start: "Nov 2024",
+      end: "Nov 2025",
+      description:
+        "Led STEAM education programs delivering engaging classes in robotics, programming, and web design. Guided students in applying the scientific method to structure and visualize data sets.",
+    },
+    {
+      company: "Headstarter AI",
+      href: "https://headstarter.co/",
+      badges: ["Fellowship"],
+      location: "Remote",
+      title: "Software Engineering Fellow",
+      logoUrl: "https://www.google.com/s2/favicons?domain=headstarter.co&sz=128",
+      start: "Jul 2024",
+      end: "Dec 2024",
+      description:
+        "Completed an intensive 7-week fellowship focused on shipping production-ready code. Built and deployed 5 different AI applications, prioritizing rapid prototyping and clean architecture.",
+    },
+    {
       company: "IBM Corporation",
       href: "https://ibm.com",
       badges: ["Data Engineering"],
@@ -120,42 +156,6 @@ export const DATA = {
       end: "Dec 2022",
       description:
         "Collaborated with key stakeholders and developers to maintain new features for Select for IBM (SFI). Managed and optimized a Cloudant (NoSQL) Database using TypeScript.",
-    },
-    {
-      company: "Work Ed",
-      href: "#",
-      badges: ["Education", "AI"],
-      location: "New York, NY",
-      title: "AI Instructor & Program Lead",
-      logoUrl: "https://avatar.vercel.sh/work-ed?size=128",
-      start: "Jan 2024",
-      end: "Present",
-      description:
-        "Developing and delivering lessons on AI concepts and chatbot development to over 100 students. Guided students through practical prompt engineering and training their own classification models.",
-    },
-    {
-      company: "Morrison Mentors",
-      href: "#",
-      badges: ["Education", "STEAM"],
-      location: "New York, NY",
-      title: "Lead Instructor",
-      logoUrl: "https://avatar.vercel.sh/morrison?size=128",
-      start: "Nov 2024",
-      end: "Present",
-      description:
-        "Led STEAM education programs delivering engaging classes in robotics, programming, and web design. Guided students in applying the scientific method to structure and visualize data sets.",
-    },
-    {
-      company: "Headstarter AI",
-      href: "https://headstarter.co",
-      badges: ["Fellowship"],
-      location: "Remote",
-      title: "Software Engineering Fellow",
-      logoUrl: "https://avatar.vercel.sh/headstarter?size=128",
-      start: "Jul 2024",
-      end: "Present",
-      description:
-        "Completed an intensive 7-week fellowship focused on shipping production-ready code. Built and deployed 5 different AI applications, prioritizing rapid prototyping and clean architecture.",
     },
   ],
   education: [
