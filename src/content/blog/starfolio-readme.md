@@ -1,5 +1,5 @@
 ---
-title: "starfolio README"
+title: "Starfolio Portfolio"
 publishedAt: "2026-05-20"
 updatedAt: "2026-05-20"
 author: "Thomas Tsangou"

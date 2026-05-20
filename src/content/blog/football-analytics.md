@@ -1,5 +1,5 @@
 ---
-title: "Football-Analytics-Engine README"
+title: "Football Analytics Engine (FAE) Dashboard"
 publishedAt: "2026-05-20"
 updatedAt: "2026-05-20"
 author: "Thomas Tsangou"

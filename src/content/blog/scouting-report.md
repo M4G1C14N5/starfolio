@@ -1,5 +1,5 @@
 ---
-title: "scouting-report README"
+title: "Football Scouting Pipeline"
 publishedAt: "2026-05-20"
 updatedAt: "2026-05-20"
 author: "Thomas Tsangou"
