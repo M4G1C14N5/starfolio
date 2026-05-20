@@ -83,7 +83,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "/Thomas_Tsangou_Resume.md",
+        url: "/Thomas_Tsangou_Resume.pdf",
         icon: FileText,
         navbar: true,
       },
@@ -179,7 +179,7 @@ export const DATA = {
   projects: [
     {
       title: "Team of the Year Predictor",
-      href: "#",
+      href: "https://github.com/M4G1C14N5/Data-Mining-TOTY-Prediction",
       dates: "2024",
       active: true,
       description:
@@ -194,7 +194,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/M4G1C14N5",
+          href: "https://github.com/M4G1C14N5/Data-Mining-TOTY-Prediction",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -203,7 +203,7 @@ export const DATA = {
     },
     {
       title: "Football (Soccer) Scouting Report",
-      href: "#",
+      href: "https://github.com/M4G1C14N5/scouting-report",
       dates: "July 2024 - Present",
       active: true,
       description:
@@ -218,7 +218,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/M4G1C14N5",
+          href: "https://github.com/M4G1C14N5/scouting-report",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -227,7 +227,7 @@ export const DATA = {
     },
     {
       title: "On-Premise Private Cloud Infrastructure",
-      href: "#",
+      href: "https://github.com/M4G1C14N5/private-mission-control",
       dates: "Jun 2025 - Present",
       active: true,
       description:
@@ -243,7 +243,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/M4G1C14N5",
+          href: "https://github.com/M4G1C14N5/private-mission-control",
           icon: <Icons.github className="size-3" />,
         },
       ],
