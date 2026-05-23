@@ -12,10 +12,38 @@ Detail-oriented Computer Scientist and Data Engineer with hands-on experience in
 *Associate of Applied Science, Computer Systems Technology*
 
 ## SKILLS
-- **Data Science & Machine Learning:** Predictive Modeling, ETL, Data Pipelines, Feature Engineering, Exploratory Data Analysis (EDA), Data Quality Validation (GX Core)
-- **Infrastructure & Networking:** Linux System Administration (Ubuntu), Reverse Proxy, DNS Management, VPN Configuration, SSH Hardening, Docker Orchestration, Apache Airflow (DAGs)
-- **Programming & Databases:** Python (Pandas, Scikit-learn, NumPy), C++, SQL, Node.js, Next.js, Git version control, TypeScript, Bash, PostgreSQL
-- **Tools:** Power BI, IBM Cloud, IBM Guardium, Streamlit, Microsoft Excel, IBM WatsonX
+- **Data Science & Machine Learning**: 
+    - Predictive Modeling
+    - ETL
+    - Data Pipelines
+    - Feature Engineering
+    - Exploratory Data Analysis (EDA)
+    - Data Quality Validation (GX Core)
+- **Infrastructure & Networking**: 
+    - Linux System Administration (Ubuntu)
+    - Reverse Proxy
+    - DNS Management
+    - VPN Configuration
+    - SSH Hardening
+    - Docker Orchestration
+    - Apache Airflow (DAGs)
+- **Programming & Databases**: 
+    - Python (Pandas, Scikit-learn, NumPy)
+    - C++
+    - SQL
+    - Node.js
+    - Next.js
+    - Git version control
+    - TypeScript
+    - Bash
+    - PostgreSQL
+- **Tools**: 
+    - Power BI
+    - IBM Cloud
+    - IBM Guardium
+    - Streamlit
+    - Microsoft Excel
+    - IBM WatsonX
 
 ## EXPERIENCE
 
