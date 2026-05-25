@@ -10,6 +10,24 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
 import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Astro } from "@/components/ui/svgs/astro";
+import projectsData from "../data/projects-generated.json";
+
+type ProjectLink = { type: string; href: string };
+type ProjectEntry = {
+  title: string; href: string; dates: string; active: boolean;
+  description: string; technologies: string[]; links: ProjectLink[];
+  image: string; video: string;
+};
+
+const iconMap: Record<string, React.ReactNode> = {
+  GitHub: <Icons.github className="size-3" />,
+  Website: <Icons.globe className="size-3" />,
+};
+
+const projects = (projectsData as ProjectEntry[]).map((p) => ({
+  ...p,
+  links: p.links.map((link) => ({ ...link, icon: iconMap[link.type] ?? null })),
+}));
 
 export const DATA = {
   name: "Thomas Tsangou",
@@ -177,79 +195,5 @@ export const DATA = {
       end: "Aug 2020",
     },
   ],
-  projects: [
-    {
-      title: "Team of the Year Predictor",
-      href: "https://github.com/M4G1C14N5/Data-Mining-TOTY-Prediction",
-      dates: "2024",
-      active: true,
-      description:
-        "Built an end-to-end predictive modeling pipeline, handling data ingestion by scraping 16 seasons of data and performing critical feature engineering. Established the foundation for a CI/CD pipeline to automate workflows.",
-      technologies: [
-        "Python",
-        "Scikit-learn",
-        "Pandas",
-        "CI/CD",
-        "Predictive Modeling",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/M4G1C14N5/Data-Mining-TOTY-Prediction",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Football (Soccer) Scouting Report",
-      href: "https://github.com/M4G1C14N5/scouting-report",
-      dates: "July 2024 - Present",
-      active: true,
-      description:
-        "Engineered a resilient data acquisition pipeline combining static and dynamic scraping techniques, implementing a fault-tolerant system with custom retry logic and exponential backoff.",
-      technologies: [
-        "Python",
-        "Docker",
-        "PostgreSQL",
-        "Apache Airflow",
-        "Selenium",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/M4G1C14N5/scouting-report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "On-Premise Private Cloud Infrastructure",
-      href: "https://github.com/M4G1C14N5/private-mission-control",
-      dates: "Jun 2025 - Present",
-      active: true,
-      description:
-        "Architected and provisioned a stable, bare-metal server for hosting containerized ML services, demonstrating expertise in Linux System Administration and security hardening using Docker, Nginx Proxy Manager, and ZeroTier VPN.",
-      technologies: [
-        "Linux",
-        "Docker",
-        "ZeroTier",
-        "Cloudflare Tunnels",
-        "Nginx",
-        "Ollama",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/M4G1C14N5/private-mission-control",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-  ],
+  projects,
 } as const;

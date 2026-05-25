@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Team of the Year Predictor",
+    "href": "https://github.com/M4G1C14N5/Data-Mining-TOTY-Prediction",
+    "dates": "2024",
+    "active": true,
+    "description": "Built an end-to-end predictive modeling pipeline, handling data ingestion by scraping 16 seasons of data and performing critical feature engineering. Established the foundation for a CI/CD pipeline to automate workflows.",
+    "technologies": ["Python", "Scikit-learn", "Pandas", "CI/CD", "Predictive Modeling"],
+    "links": [
+      { "type": "GitHub", "href": "https://github.com/M4G1C14N5/Data-Mining-TOTY-Prediction" }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Football (Soccer) Scouting Report",
+    "href": "https://github.com/M4G1C14N5/scouting-report",
+    "dates": "July 2024 - Present",
+    "active": true,
+    "description": "Engineered a resilient data acquisition pipeline combining static and dynamic scraping techniques, implementing a fault-tolerant system with custom retry logic and exponential backoff.",
+    "technologies": ["Python", "Docker", "PostgreSQL", "Apache Airflow", "Selenium"],
+    "links": [
+      { "type": "GitHub", "href": "https://github.com/M4G1C14N5/scouting-report" }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "On-Premise Private Cloud Infrastructure",
+    "href": "https://github.com/M4G1C14N5/private-mission-control",
+    "dates": "Jun 2025 - Present",
+    "active": true,
+    "description": "Architected and provisioned a stable, bare-metal server for hosting containerized ML services, demonstrating expertise in Linux System Administration and security hardening using Docker, Nginx Proxy Manager, and ZeroTier VPN.",
+    "technologies": ["Linux", "Docker", "ZeroTier", "Cloudflare Tunnels", "Nginx", "Ollama"],
+    "links": [
+      { "type": "GitHub", "href": "https://github.com/M4G1C14N5/private-mission-control" }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "StackMap",
+    "href": "https://github.com/M4G1C14N5/StackMap",
+    "dates": "May 2026 - Present",
+    "active": true,
+    "description": "An interactive, live architectural blueprint of my home infrastructure. Visualizes service relationships, container topology, and network configuration in real-time.",
+    "technologies": ["TypeScript", "Next.js", "React"],
+    "links": [
+      { "type": "GitHub", "href": "https://github.com/M4G1C14N5/StackMap" },
+      { "type": "Website", "href": "https://stackmap.camuedlabs.org" }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Multi-Tenant RAG Engine",
+    "href": "https://github.com/M4G1C14N5/Multi-tenant-RAG-Engine",
+    "dates": "May 2026 - Present",
+    "active": true,
+    "description": "Unified vector database and central processing engine for future AI applications. Implements multi-tenant isolation for retrieval-augmented generation pipelines.",
+    "technologies": ["Python", "RAG", "Vector Database", "AI/ML"],
+    "links": [
+      { "type": "GitHub", "href": "https://github.com/M4G1C14N5/Multi-tenant-RAG-Engine" }
+    ],
+    "image": "",
+    "video": ""
+  }
+]
