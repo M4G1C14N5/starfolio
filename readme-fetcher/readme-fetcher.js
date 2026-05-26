@@ -77,8 +77,15 @@ async function updateProjectsJson() {
 
   const updated = [];
   for (const { owner, repo } of projectRepos) {
+    const expectedHref = `https://github.com/${owner}/${repo}`;
     const meta = await fetchProjectMeta(owner, repo);
-    if (!meta) continue;
+
+    if (!meta) {
+      // GitHub fetch failed — preserve existing entry so it isn't lost
+      const existingEntry = existingByHref.get(expectedHref);
+      if (existingEntry) updated.push(existingEntry);
+      continue;
+    }
 
     const existingEntry = existingByHref.get(meta.href);
     if (existingEntry) {
