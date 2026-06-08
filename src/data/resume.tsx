@@ -68,6 +68,18 @@ export const DATA = {
       heading: "Get in Touch",
       text: "Want to chat? Just shoot me an email and I'll respond whenever I can.",
     },
+    capabilities: {
+      order: 9, enabled: true,
+      heading: "What can I do?",
+      text: "I build robust data systems and AI-powered solutions.",
+      items: [
+        "Data Engineering (ETL/ELT)",
+        "Predictive Modeling",
+        "Linux System Architecture",
+        "Container Orchestration (Docker)",
+        "Chatbot (in-progress)",
+      ],
+    },
   },
   photos: [],
   skills: [
