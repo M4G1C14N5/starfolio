@@ -9,7 +9,13 @@ A clean, minimalist developer portfolio template adapted from [webrating/starfol
 - **Printable/Exportable**: Includes an integrated resume PDF generation pipeline.
 - **Docker/Coolify Ready**: Runs on `@astrojs/node` standalone, making it trivial to deploy in modern containerized environments.
 
-## Setup & Deployment
+## Setup, Deployment, & Ingestion
+
+### Ingestion Pipeline for RAG Engine
+- Ingestion for Starfolio will be orchestrated via Apache Airflow.
+- Pipeline tasks include data extraction, preprocessing, embedding generation, and database upload.
+- Logs and metrics will track pipeline execution for debugging and observability.
+
 
 1. **Clone the repository:**
    ```bash
