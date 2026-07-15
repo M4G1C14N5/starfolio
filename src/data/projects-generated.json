@@ -14,7 +14,7 @@
   },
   {
     "title": "Football (Soccer) Scouting Report",
-    "href": "https://github.com/M4G1C14N5/scouting-report",
+    "href": "https://fae.camuedlabs.org/",
     "dates": "July 2024 - Present",
     "active": true,
     "description": "Engineered a resilient data acquisition pipeline combining static and dynamic scraping techniques, implementing a fault-tolerant system with custom retry logic and exponential backoff.",
@@ -26,6 +26,10 @@
       "Selenium"
     ],
     "links": [
+      {
+        "type": "Website",
+        "href": "https://fae.camuedlabs.org/"
+      },
       {
         "type": "GitHub",
         "href": "https://github.com/M4G1C14N5/scouting-report"
