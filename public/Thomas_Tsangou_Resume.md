@@ -2,7 +2,7 @@
 New York, NY | 929-586-1252 | thomastsangou@gmail.com | [Website](https://thomas.camuedlabs.org) | [LinkedIn](https://www.linkedin.com/in/thomas-tsangou-ab99a218a/) | [GitHub](https://github.com/M4G1C14N5)
 
 ## SUMMARY
-Detail-oriented Computer Scientist and Data Engineer with hands-on experience in predictive modeling, automation, and infrastructure. Proven ability to take projects from conception to completion, including architecting on-premise cloud systems and developing machine learning models. Eager to apply skills in Python, Linux, and MLOps to build robust data solutions.
+Computer Science educator and data engineer with experience teaching AI, cybersecurity, and STEAM to 200+ students across Work Ed and Morrison Mentors. Built production-style projects in Python, Docker, and Airflow, and bring that hands-on technical background into the classroom.
 
 ## EDUCATION
 **Hunter College/CUNY** | New York, NY \hfill Aug 2020-Present  
