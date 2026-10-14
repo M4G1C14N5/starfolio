@@ -160,7 +160,7 @@ export const DATA = {
       title: "Software Engineering Fellow",
       logoUrl: "https://www.google.com/s2/favicons?domain=headstarter.co&sz=128",
       start: "Jul 2024",
-      end: "Dec 2024",
+      end: "Aug 2024",
       description:
         "Completed an intensive 7-week fellowship focused on shipping production-ready code. Built and deployed 5 different AI applications, prioritizing rapid prototyping and clean architecture.",
     },
@@ -196,7 +196,7 @@ export const DATA = {
       degree: "Bachelor of Arts, Computer Science",
       logoUrl: "https://www.google.com/s2/favicons?domain=hunter.cuny.edu&sz=128",
       start: "Aug 2020",
-      end: "Dec 2025",
+      end: "Present",
     },
     {
       school: "NYC College of Technology/CUNY",

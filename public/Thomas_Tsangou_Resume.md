@@ -5,7 +5,7 @@ New York, NY | 929-586-1252 | thomastsangou@gmail.com | [Website](https://thomas
 Detail-oriented Computer Scientist and Data Engineer with hands-on experience in predictive modeling, automation, and infrastructure. Proven ability to take projects from conception to completion, including architecting on-premise cloud systems and developing machine learning models. Eager to apply skills in Python, Linux, and MLOps to build robust data solutions.
 
 ## EDUCATION
-**Hunter College/CUNY** | New York, NY \hfill Aug 2020-Dec 2026  
+**Hunter College/CUNY** | New York, NY \hfill Aug 2020-Present  
 *Bachelor of Arts, Computer Science, Minor in Mathematics*
 
 **NYC College of Technology/CUNY** | Brooklyn, NY \hfill Aug 2017-Aug 2020  
@@ -44,7 +44,7 @@ Detail-oriented Computer Scientist and Data Engineer with hands-on experience in
 
 ## LEADERSHIP & PROJECTS  
 
-**Headstarter AI** | Software Engineering Fellow \hfill Jul 2024 - Present  
+**Headstarter AI** | Software Engineering Fellow \hfill Jul 2024 - Aug 2024  
 
 - Participating in a 7-week remote fellowship focused on building 5 AI projects and a capstone project.
 
