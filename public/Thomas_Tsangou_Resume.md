@@ -36,7 +36,7 @@ Computer Science educator and data engineer with experience teaching AI, cyberse
 - Developing and delivering lessons on AI concepts and chatbot development to over 100 students.
 - Translated complex technical requirements into engaging learning modules, coaching students on creating AI-powered chatbots with IBM WatsonX Assistant.
 
-**Morrison Mentors** | Lead Instructor \hfill Nov 2024-Present  
+**Morrison Mentors** | Lead Instructor \hfill Nov 2024-Nov 2025  
 
 - Led STEAM education programs across four school locations, delivering engaging, hands-on classes to over 100 students in robotics, programming, and web design.
 - Guided students and Junior instructors in applying the scientific method to structure, lifestyle, and interpret data sets for hypothesis testing.
