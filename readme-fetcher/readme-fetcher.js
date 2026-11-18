@@ -106,8 +106,6 @@ const repos = [
   { owner: "M4G1C14N5", repo: "Data-Mining-TOTY-Prediction" },
   { owner: "M4G1C14N5", repo: "Football-Analytics-Engine" },
   { owner: "M4G1C14N5", repo: "scouting-report" },
-  { owner: "M4G1C14N5", repo: "private-mission-control" },
-  { owner: "M4G1C14N5", repo: "StackMap" },
   { owner: "M4G1C14N5", repo: "Multi-tenant-RAG-Engine" },
 ];
 
@@ -115,8 +113,6 @@ const repos = [
 const projectRepos = [
   { owner: "M4G1C14N5", repo: "Data-Mining-TOTY-Prediction" },
   { owner: "M4G1C14N5", repo: "scouting-report" },
-  { owner: "M4G1C14N5", repo: "private-mission-control" },
-  { owner: "M4G1C14N5", repo: "StackMap" },
   { owner: "M4G1C14N5", repo: "Multi-tenant-RAG-Engine" },
 ];
 
