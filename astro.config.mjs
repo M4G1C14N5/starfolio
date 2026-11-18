@@ -4,6 +4,7 @@ import node from '@astrojs/node';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import mdx from '@astrojs/mdx';
+import { unified } from '@astrojs/markdown-remark';
 import sitemap from '@astrojs/sitemap';
 import remarkGfm from 'remark-gfm';
 import rehypePrettyCode from 'rehype-pretty-code';
@@ -35,8 +36,6 @@ export default defineConfig({
   integrations: [
     react(),
     mdx({
-      remarkPlugins: [remarkGfm, remarkCodeMeta],
-      rehypePlugins: [[rehypePrettyCode, prettyCodeOptions]],
       syntaxHighlight: false,
     }),
     sitemap(),
@@ -44,7 +43,9 @@ export default defineConfig({
 
   markdown: {
     syntaxHighlight: false,
-    remarkPlugins: [remarkGfm, remarkCodeMeta],
-    rehypePlugins: [[rehypePrettyCode, prettyCodeOptions]],
+    processor: unified({
+      remarkPlugins: [remarkGfm, remarkCodeMeta],
+      rehypePlugins: [/** @type {any} */ ([rehypePrettyCode, prettyCodeOptions])],
+    }),
   },
 });
